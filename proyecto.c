@@ -4,6 +4,8 @@
 
 int main(){
     int op;
+    float Celsius,Farenheit,Kelbin;
+    float Centimetros,Metros,Kilemetro;
     menuprincipal(op);
 }
 
@@ -17,7 +19,7 @@ int menuprincipal(int op){
 
 int temperatura(int op){
     printf("Que desea convertir\n");
-    printf("1 Celius a Farenheit");
+    printf("1 Celsius a Farenheit");
     printf("2 Celius a Kelvin");
     printf("3 Farenheit a Celsius");
     printf("4 Kelvin a Celsius");
@@ -29,3 +31,4 @@ int distancia(int op){
     printf("1 Metros a Kilometros");
     printf("2 Centimetros a Metros");
 }
+
