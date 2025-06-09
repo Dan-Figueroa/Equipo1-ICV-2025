@@ -94,7 +94,7 @@ void menu3()
 
 int main(int argc, char const *argv[])
 {
-
+do{
     menu1 ();
     switch (opcion1)
     {
@@ -136,6 +136,7 @@ int main(int argc, char const *argv[])
     default:
         break;
     }
+}while(opcion1!=3);
 
     return 0;
 }
