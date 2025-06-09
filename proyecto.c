@@ -25,5 +25,8 @@ int temperatura(int op){
 }
 
 int distancia(int op){  
+    printf("Que desea convertir\n");
+    printf("1 Metros a Kilometros");
+    printf("2 Centimetros a Metros"); 
 }
 
