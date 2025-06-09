@@ -15,7 +15,15 @@ int menuprincipal(int op){
     return op;
 }
 
-int distacias(int op){
+int temperatura(int op){
+    printf("Que desea convertir\n");
+    printf("1 Celius a Farenheit");
+    printf("2 Celius a Kelvin");
+    printf("3 Farenheit a Celsius");
+    printf("4 Kelvin a Celsius");
 
+}
+
+int distancia(int op){  
 }
 
